@@ -33,7 +33,7 @@ public class utils {
 	//limited map() functionality as in Functional languages
 	public static <T> Collection<T> map(Collection<T> lst, MapFun fun) {
 		List<T> new_lst = new ArrayList<T>();
-		for (int i=0;i < lst.size();i++) new_lst.add( (T) fun.map_fun(lst,i) );
+		for (T el : lst) new_lst.add( (T) fun.map_fun(el) );
 		return new_lst;
 	}
 	

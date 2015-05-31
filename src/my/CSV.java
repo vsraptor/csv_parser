@@ -30,8 +30,8 @@ public class CSV implements AutoCloseable {
 	
 	//functional like programming : to be used by utils.map()	
 	private MapFun quote_fun = new MapFun() {
-		public <T> T map_fun(Collection<T> lst, int idx) {
-			return (T) (quote + ((List<T>) lst).get(idx) + quote);				
+		public <T> T map_fun(T el) {
+			return (T) (quote + el + quote);				
 		}
 	};
 	
