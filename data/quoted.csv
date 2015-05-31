@@ -1,0 +1,15 @@
+"ttt",123,"5,55",text,other,"rtt",4
+"first",field,is,quoted
+"first,field",is,quoted,with,comma,inside
+last,field,is,"quoted"
+last,field,is,quoted,with,"comma,inside"
+"all","fields","are","quoted"
+"","first","empty",quoted,"field"
+,first,empty,unquoted,field
+noting,in,,the,middle
+noting,quoted,in,"",the,middle
+"first",last,"quoted"
+no,comma,fields
+"one field"
+,
+"",""
